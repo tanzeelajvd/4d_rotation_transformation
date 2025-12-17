@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+transformed_datasets/
+.DS_Store
+.vscode/

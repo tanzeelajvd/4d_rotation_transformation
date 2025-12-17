@@ -2,6 +2,12 @@
 
 This project implements a **4D rotation–based data transformation** method in which numerical features of a dataset are grouped into four-dimensional blocks and transformed using an orthogonal 4D rotation matrix. The transformation preserves geometric properties such as variance and distance while changing the orientation of the data in feature space for analysis and experimentation.
 
+The implementation is based on the methodology described in the following research paper:
+
+**IEEE Paper:**  
+https://ieeexplore.ieee.org/document/9117391
+
+
 The transformation is applied **independently to each dataset**, ensuring that datasets are not mixed and that their internal structure remains intact.
 
 ---
